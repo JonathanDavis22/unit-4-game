@@ -1,0 +1,99 @@
+body {
+    background: URL("../images/country-quilt.png");
+}
+
+.card {
+    height: 250px;
+    width: 250px;
+}
+
+.gameName {
+    color: #ffffff;
+    font-size: 30pt;
+    font-weight: bold;
+    background-color: orange;
+    height: 75px;
+    width: 355px;
+    padding: 7px;
+    margin: 10px;
+}
+
+.description {
+    background-color: rgb(243, 225, 201);
+    color: green;
+    height: 205px;
+    width: 450px;
+    margin: 10px 10px 5px 10px;
+}
+
+.targetValue {
+    font-size: 28pt;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.number {
+    background-color: rgb(97, 189, 97);
+    float: left;
+    margin: 10px;
+    height: 150px;
+}
+
+.winsLosses {
+    background-color: rgb(113, 221, 203);
+    float: left;
+    padding: 5px;
+    font-weight: bold;
+    margin: 10px;
+    height: 150px;
+    width: 100px;
+}
+
+.empty {
+    clear: both;
+    height: 1px;
+    width: 100px;
+}
+
+#btn1, #btn2, #btn3, #btn4 {
+    float: left;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    background-color: white;
+}
+
+#btn1 {
+    background: URL("../images/red.jpg");
+    background-size: 75px;
+}
+
+#btn2 {
+    background: URL("../images/blue.jpg");
+    background-size: 75px;
+}
+
+#btn3 {
+    background: URL("../images/green.jpg");
+    background-size: 75px;
+}
+
+#btn4 {
+    background: URL("../images/yellow.jpg");
+    background-size: 75px;
+}
+
+.totalScore {
+    clear: both;
+    background-color: teal;
+    margin: 10px;
+    height: 35px;
+    width: 325px;
+}
+
+.score {
+    background-color: teal;
+    margin: 10px;
+    height: 200px;
+    width: 325px;
+}
